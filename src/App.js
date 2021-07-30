@@ -1,6 +1,10 @@
-import "./App.css";
 import React from "react";
+import Blog from "./containers/blog/Blog";
 
 export default function App() {
-  return <div></div>;
+  return (
+    <>
+      <Blog />
+    </>
+  );
 }

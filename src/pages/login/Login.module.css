@@ -1,0 +1,32 @@
+.login {
+    width: 20%;
+    margin: auto;
+    margin-top: 10vh;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+    height: 45vh;
+    text-align: center;
+
+}
+
+.txt {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+
+input {
+    height: 10%;
+    margin-bottom: 10%;
+}
+
+.loginBtn {
+    transition: transform .3s;
+}
+
+.loginBtn:hover {
+    color: green;
+    cursor: pointer;
+    transform: scale(1.1);
+}
